@@ -1,4 +1,4 @@
-* Install [nodejs](https://nodejs.org/en/download/package-manager/) 
+* Install [nodejs](https://nodejs.org/en/download/package-manager/), and `nvm` is recommended.
 * Install yarn
 ```
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
@@ -12,7 +12,7 @@ vsce -h # check
 ```
 * Install typescript
 ```
-npm install --global typescript
+npm install typescript
 tsc -h
 ```
 * Install eslint
