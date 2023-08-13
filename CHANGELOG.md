@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.0.6
+- Add icon
+
 ## v0.0.5 
 - Fork as 'find in current file' from https://github.com/shibayu36/vscode-search-in-current-file.
 - Resolved issue #9: Search failed when 'Show only in Open Editor' is disabled in Windows OS.
