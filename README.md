@@ -13,15 +13,15 @@ Search only in current file displayed in the active editor.  Automatically, the 
 ## Useful Keyboard Shortcuts Example
 
 ```json
-// Shortcut ctrl+alt+f for this extension
+// Shortcut for this extension
 {
-  "key": "ctrl+alt+f",
+  "key": "ctrl+alt+c",
   "command": "find-in-current-file.searchInCurrentFile",
   "when": "editorFocus || editorIsOpen"
 }
 ```
 
-## How to Pubish to VS Code Marketplace
+## How to Publish to VS Code Marketplace
 
 Check [RELEASE.md](RELEASE.md)
 
@@ -33,9 +33,11 @@ Open a terminal from a desktop environment as it is a VS code UI test, and run t
 
 ```
 cd vscode-find-in-current-file
+npm install -g yarn
 yarn install
 cd src
-npm test
+yarn pretest
+yarn test
 ```
 
 ## Contribution
