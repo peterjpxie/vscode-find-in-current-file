@@ -20,6 +20,7 @@ eslint -h
 ```
 * Go into the folder of this repo, e.g. `cd vscode-find-in-current-file`
 * Edit `version` in package.json, e.g. increase minor version by 1.
+* Edit CHANGELOG.md
 * Build extension release package with `vsce package`
 * Install the extension locally with `code --install-extension find-in-current-file-x.y.z.vsix` and validate the extension is working as expected.
 * [Optional] Release the version in github with tags `git commit && git tag vx.y.z && git push && git push --tags`

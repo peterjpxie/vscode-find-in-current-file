@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.0.7
+- Update shortcut to ctrl+alt+c to avoid conflict with system shortcut ctrl+alt+f
+
 ## v0.0.6
 - Add icon
 
