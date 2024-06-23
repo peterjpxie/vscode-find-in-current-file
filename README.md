@@ -10,39 +10,24 @@ This is a Visual Studio Code extension that makes it easily to find all in curre
 
 Search only in current file displayed in the active editor.  Automatically, the currently selected text is filled into the search query, and the current file is filled into "files to include" in the Search Panel.
 
-## Useful Keyboard Shortcuts Example
+## Default Keyboard Shortcut
 
 ```json
-// Shortcut for this extension
 {
   "key": "ctrl+alt+c",
+  "mac": "cmd+shift+c",
   "command": "find-in-current-file.searchInCurrentFile",
   "when": "editorFocus || editorIsOpen"
 }
 ```
 
-## How to Publish to VS Code Marketplace
+## Build, Test and Publish
 
 Check [RELEASE.md](RELEASE.md)
 
-## How to Run Tests
-
-Install dependencies as per [RELEASE.md](RELEASE.md).
-
-Open a terminal from a desktop environment as it is a VS code UI test, and run the tests as follows:
-
-```
-cd vscode-find-in-current-file
-npm install -g yarn
-yarn install
-cd src
-yarn pretest
-yarn test
-```
-
 ## Contribution
 
-Mac users are much welcomed to test and raise PR.
+Issues and PRs are welcomed.
 
 ## Credit
 

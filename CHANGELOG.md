@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.0.8
+- Auto set default shortcut ctrl+alt+c during installation
+
 ## v0.0.7
 - Update shortcut to ctrl+alt+c to avoid conflict with system shortcut ctrl+alt+f
 
