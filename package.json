@@ -31,17 +31,17 @@
         "keybindings": [
             {
                 "command": "find-in-current-file.searchInCurrentFile",
-                "key": "ctrl+shift+c",
-                "mac": "cmd+shift+c",
+                "key": "ctrl+alt+c",
+                "mac": "cmd+alt+c",
                 "when": "editorFocus || editorIsOpen"
             }
         ]
     },
     "scripts": {
-        "vscode:prepublish": "yarn run compile",
-        "compile": "tsc -p ./",
-        "lint": "eslint src --ext ts",
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -watch -p ./",
         "watch": "tsc -watch -p ./",
+        "lint": "eslint src --ext ts",
         "pretest": "yarn run compile && yarn run lint",
         "test": "node ./out/test/runTest.js"
     },

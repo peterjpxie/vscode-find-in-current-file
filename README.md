@@ -1,5 +1,7 @@
 # Find in Current File
 
+A fork of great work https://github.com/shibayu36/vscode-search-in-current-file.
+
 This is a Visual Studio Code extension that makes it easily to find all in current active editor.  It is inspired by the emacs extension helm-occur.
 
 ![Demo](images/demo.gif)
@@ -15,7 +17,7 @@ Search only in current file displayed in the active editor.  Automatically, the 
 ```json
 {
   "key": "ctrl+alt+c",
-  "mac": "cmd+shift+c",
+  "mac": "cmd+alt+c",
   "command": "find-in-current-file.searchInCurrentFile",
   "when": "editorFocus || editorIsOpen"
 }
@@ -28,7 +30,3 @@ Check [RELEASE.md](RELEASE.md)
 ## Contribution
 
 Issues and PRs are welcomed.
-
-## Credit
-
-Forked from great work https://github.com/shibayu36/vscode-search-in-current-file
